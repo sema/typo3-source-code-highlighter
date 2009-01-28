@@ -1,0 +1,48 @@
+08-06-22 (1.0.1) Casper Jensen  <sema@semaprojects.net>
+
+	* Added option to create XHTML compliant output when using PRE containers and line highlighting <thanks Xavier Perseguers>
+
+07-08-12 (1.0.0) Casper Jensen  <sema@semaprojects.net>
+
+	* Fixed minor bugs
+	* Documentation up to date
+	* First stable release!
+
+07-08-06 (0.2.0) Casper Jensen  <sema@semaprojects.net>
+
+	* Fixed bug overwriting CSS output when more than one content element were added to the page (reported by Cedric Spindler)
+	* Errors detected by the GeSHi engine is now logged
+	* Updated list of supported languages and variants (current count: 87)
+	
+07-08-04 (0.1.0) Casper Jensen  <sema@semaprojects.net>
+
+	* Added option to change the container type (pre, div, none) [typoscript]
+	* Added option to change tab size (when using div container type) [typoscript]
+	* Added option to change the starting linenumber
+	* Moved "highlight lines" option to other sheet
+	* Small visual improvements
+	* Removed some unused files
+	* Improved the localization possibilities for the extension (all strings is now stored in pi1/locallang.php
+
+07-07-31 (0.0.5) Casper Jensen  <sema@semaprojects.net>
+
+	* Improved typoscript formatting <thanks Janno Schouwenburg>
+	* Reduced html output <thanks Markus Timtner (mtness)>
+	* Changed the config structure when styling the code by typoscript [typoscript]
+
+07-07-26 (0.0.3) Casper Jensen  <sema@semaprojects.net>
+
+	* Formatted source is now cached
+	* Added link in the "content element" list, making it quicker to add new source
+	* Added method to highlight specific lines
+	* Added unofficial typoscript language
+
+07-07-23 (0.0.2) Casper Jensen  <sema@semaprojects.net>
+
+	* Added option to disable/enable line numbers [typoscript]
+	* Added options to alter the formatting style [typoscript]
+	
+
+07-07-01 (0.0.1) Casper Jensen  <sema@semaprojects.net>
+
+	* Initial release

@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+  <meta>
+    <langDisable>1</langDisable> 
+  </meta>
+  <sheets>
+  <sVIEW>
+  <ROOT>
+    <TCEforms>
+	<sheetTitle>LLL:EXT:sema_sourcecode/pi1/locallang.php:contentsheet</sheetTitle>
+	</TCEforms>
+    <type>array</type>
+    <el>
+	<cLang>
+		<TCEforms>
+			<label>LLL:EXT:sema_sourcecode/pi1/locallang.php:lang</label>
+			<config>
+				<type>select</type>
+					<items>
+						<numIndex index="0">
+							<numIndex index="0">ABAP</numIndex>
+							<numIndex index="1">abap</numIndex>
+						</numIndex>
+						<numIndex index="1">
+							<numIndex index="0">ActionScript</numIndex>
+							<numIndex index="1">actionscript</numIndex>
+						</numIndex>
+						<numIndex index="2">
+							<numIndex index="0">Ada</numIndex>
+							<numIndex index="1">ada</numIndex>
+						</numIndex>
+						<numIndex index="3">
+							<numIndex index="0">Apache Log</numIndex>
+							<numIndex index="1">apache</numIndex>
+						</numIndex>
+						<numIndex index="4">
+							<numIndex index="0">AppleScript</numIndex>
+							<numIndex index="1">applescript</numIndex>
+						</numIndex>
+						<numIndex index="5">
+							<numIndex index="0">ASM</numIndex>
+							<numIndex index="1">asm</numIndex>
+						</numIndex>
+						<numIndex index="6">
+							<numIndex index="0">ASP</numIndex>
+							<numIndex index="1">asp</numIndex>
+						</numIndex>
+						<numIndex index="7">
+							<numIndex index="0">AutoIt</numIndex>
+							<numIndex index="1">autoit</numIndex>
+						</numIndex>
+						<numIndex index="8">
+							<numIndex index="0">Bash</numIndex>
+							<numIndex index="1">bash</numIndex>
+						</numIndex>
+						<numIndex index="9">
+							<numIndex index="0">BlitzBasic</numIndex>
+							<numIndex index="1">blitzbasic</numIndex>
+						</numIndex>
+						<numIndex index="10">
+							<numIndex index="0">bnf</numIndex>
+							<numIndex index="1">bnf</numIndex>
+						</numIndex>
+						<numIndex index="11">
+							<numIndex index="0">C</numIndex>
+							<numIndex index="1">c</numIndex>
+						</numIndex>
+						<numIndex index="12">
+							<numIndex index="0">C#</numIndex>
+							<numIndex index="1">csharp</numIndex>
+						</numIndex>
+						<numIndex index="13">
+							<numIndex index="0">C (Mac)</numIndex>
+							<numIndex index="1">c_mac</numIndex>
+						</numIndex>
+						<numIndex index="14">
+							<numIndex index="0">C++</numIndex>
+							<numIndex index="1">cpp</numIndex>
+						</numIndex>
+						<numIndex index="15">
+							<numIndex index="0">C++ (QT)</numIndex>
+							<numIndex index="1">cpp-qt</numIndex>
+						</numIndex>
+						<numIndex index="16">
+							<numIndex index="0">CAD DCL</numIndex>
+							<numIndex index="1">caddcl</numIndex>
+						</numIndex>
+						<numIndex index="17">
+							<numIndex index="0">CAD Lisp</numIndex>
+							<numIndex index="1">cadlisp</numIndex>
+						</numIndex>
+						<numIndex index="18">
+							<numIndex index="0">CFDG</numIndex>
+							<numIndex index="1">cfdg</numIndex>
+						</numIndex>
+						<numIndex index="19">
+							<numIndex index="0">ColdFusion</numIndex>
+							<numIndex index="1">cfm</numIndex>
+						</numIndex>
+						<numIndex index="20">
+							<numIndex index="0">CSS</numIndex>
+							<numIndex index="1">css</numIndex>
+						</numIndex>
+						<numIndex index="21">
+							<numIndex index="0">D</numIndex>
+							<numIndex index="1">d</numIndex>
+						</numIndex>
+						<numIndex index="22">
+							<numIndex index="0">Delphi</numIndex>
+							<numIndex index="1">delphi</numIndex>
+						</numIndex>
+						<numIndex index="23">
+							<numIndex index="0">Diff</numIndex>
+							<numIndex index="1">diff</numIndex>
+						</numIndex>
+						<numIndex index="24">
+							<numIndex index="0">DIV</numIndex>
+							<numIndex index="1">div</numIndex>
+						</numIndex>
+						<numIndex index="25">
+							<numIndex index="0">DOS</numIndex>
+							<numIndex index="1">dos</numIndex>
+						</numIndex>
+						<numIndex index="26">
+							<numIndex index="0">dot</numIndex>
+							<numIndex index="1">dot</numIndex>
+						</numIndex>
+						<numIndex index="27">
+							<numIndex index="0">Eiffel</numIndex>
+							<numIndex index="1">eiffel</numIndex>
+						</numIndex>
+						<numIndex index="28">
+							<numIndex index="0">Fortran</numIndex>
+							<numIndex index="1">fortran</numIndex>
+						</numIndex>
+						<numIndex index="29">
+							<numIndex index="0">FreeBasic</numIndex>
+							<numIndex index="1">freebasic</numIndex>
+						</numIndex>
+						<numIndex index="30">
+							<numIndex index="0">genero</numIndex>
+							<numIndex index="1">genero</numIndex>
+						</numIndex>
+						<numIndex index="31">
+							<numIndex index="0">GML</numIndex>
+							<numIndex index="1">gml</numIndex>
+						</numIndex>
+						<numIndex index="32">
+							<numIndex index="0">Groovy</numIndex>
+							<numIndex index="1">groovy</numIndex>
+						</numIndex>
+						<numIndex index="33">
+							<numIndex index="0">Haskell</numIndex>
+							<numIndex index="1">haskell</numIndex>
+						</numIndex>
+						<numIndex index="34">
+							<numIndex index="0">HTML</numIndex>
+							<numIndex index="1">html4strict</numIndex>
+						</numIndex>
+						<numIndex index="35">
+							<numIndex index="0">INI</numIndex>
+							<numIndex index="1">ini</numIndex>
+						</numIndex>
+						<numIndex index="36">
+							<numIndex index="0">Inno</numIndex>
+							<numIndex index="1">inno</numIndex>
+						</numIndex>
+						<numIndex index="37">
+							<numIndex index="0">Io</numIndex>
+							<numIndex index="1">io</numIndex>
+						</numIndex>
+						<numIndex index="38">
+							<numIndex index="0">Java</numIndex>
+							<numIndex index="1">java</numIndex>
+						</numIndex>
+						<numIndex index="39">
+							<numIndex index="0">Java(TM) 2 Platform Standard Edition 5.0</numIndex>
+							<numIndex index="1">java5</numIndex>
+						</numIndex>
+						<numIndex index="40">
+							<numIndex index="0">Javascript</numIndex>
+							<numIndex index="1">javascript</numIndex>
+						</numIndex>
+						<numIndex index="41">
+							<numIndex index="0">LaTeX</numIndex>
+							<numIndex index="1">latex</numIndex>
+						</numIndex>
+						<numIndex index="42">
+							<numIndex index="0">Lisp</numIndex>
+							<numIndex index="1">lisp</numIndex>
+						</numIndex>
+						<numIndex index="43">
+							<numIndex index="0">Lua</numIndex>
+							<numIndex index="1">lua</numIndex>
+						</numIndex>
+						<numIndex index="44">
+							<numIndex index="0">Matlab M</numIndex>
+							<numIndex index="1">matlab</numIndex>
+						</numIndex>
+						<numIndex index="45">
+							<numIndex index="0">Microchip Assembler</numIndex>
+							<numIndex index="1">mpasm</numIndex>
+						</numIndex>
+						<numIndex index="46">
+							<numIndex index="0">Microsoft Registry</numIndex>
+							<numIndex index="1">reg</numIndex>
+						</numIndex>
+						<numIndex index="47">
+							<numIndex index="0">mIRC Scripting</numIndex>
+							<numIndex index="1">mirc</numIndex>
+						</numIndex>
+						<numIndex index="48">
+							<numIndex index="0">Motorola 68000 Assembler</numIndex>
+							<numIndex index="1">m68k</numIndex>
+						</numIndex>
+						<numIndex index="49">
+							<numIndex index="0">MySQL</numIndex>
+							<numIndex index="1">mysql</numIndex>
+						</numIndex>
+						<numIndex index="50">
+							<numIndex index="0">NSIS</numIndex>
+							<numIndex index="1">nsis</numIndex>
+						</numIndex>
+						<numIndex index="51">
+							<numIndex index="0">Objective C</numIndex>
+							<numIndex index="1">objc</numIndex>
+						</numIndex>
+						<numIndex index="52">
+							<numIndex index="0">OCaml</numIndex>
+							<numIndex index="1">ocaml</numIndex>
+						</numIndex>
+						<numIndex index="53">
+							<numIndex index="0">OCaml (brief version)</numIndex>
+							<numIndex index="1">ocaml-brief</numIndex>
+						</numIndex>
+						<numIndex index="54">
+							<numIndex index="0">OpenOffice.org Basic</numIndex>
+							<numIndex index="1">oobas</numIndex>
+						</numIndex>
+						<numIndex index="55">
+							<numIndex index="0">Oracle 8 SQL</numIndex>
+							<numIndex index="1">oracle8</numIndex>
+						</numIndex>
+						<numIndex index="56">
+							<numIndex index="0">Pascal</numIndex>
+							<numIndex index="1">pascal</numIndex>
+						</numIndex>
+						<numIndex index="57">
+							<numIndex index="0">per</numIndex>
+							<numIndex index="1">per</numIndex>
+						</numIndex>
+						<numIndex index="58">
+							<numIndex index="0">Perl</numIndex>
+							<numIndex index="1">perl</numIndex>
+						</numIndex>
+						<numIndex index="59">
+							<numIndex index="0">PHP</numIndex>
+							<numIndex index="1">php</numIndex>
+						</numIndex>
+						<numIndex index="60">
+							<numIndex index="0">PHP (brief version)</numIndex>
+							<numIndex index="1">php-brief</numIndex>
+						</numIndex>
+						<numIndex index="61">
+							<numIndex index="0">PL/SQL</numIndex>
+							<numIndex index="1">plsql</numIndex>
+						</numIndex>
+						<numIndex index="62">
+							<numIndex index="0">Python</numIndex>
+							<numIndex index="1">python</numIndex>
+						</numIndex>
+						<numIndex index="63">
+							<numIndex index="0">QBasic/QuickBASIC</numIndex>
+							<numIndex index="1">qbasic</numIndex>
+						</numIndex>
+						<numIndex index="64">
+							<numIndex index="0">Rails</numIndex>
+							<numIndex index="1">rails</numIndex>
+						</numIndex>
+						<numIndex index="65">
+							<numIndex index="0">robots.txt</numIndex>
+							<numIndex index="1">robots</numIndex>
+						</numIndex>
+						<numIndex index="66">
+							<numIndex index="0">Ruby</numIndex>
+							<numIndex index="1">ruby</numIndex>
+						</numIndex>
+						<numIndex index="67">
+							<numIndex index="0">SAS</numIndex>
+							<numIndex index="1">sas</numIndex>
+						</numIndex>
+						<numIndex index="68">
+							<numIndex index="0">Scheme</numIndex>
+							<numIndex index="1">scheme</numIndex>
+						</numIndex>
+						<numIndex index="69">
+							<numIndex index="0">sdlBasic</numIndex>
+							<numIndex index="1">sdlbasic</numIndex>
+						</numIndex>
+						<numIndex index="70">
+							<numIndex index="0">Smalltalk</numIndex>
+							<numIndex index="1">smalltalk</numIndex>
+						</numIndex>
+						<numIndex index="71">
+							<numIndex index="0">Smarty</numIndex>
+							<numIndex index="1">smarty</numIndex>
+						</numIndex>
+						<numIndex index="72">
+							<numIndex index="0">SQL</numIndex>
+							<numIndex index="1">sql</numIndex>
+						</numIndex>
+						<numIndex index="73">
+							<numIndex index="0">T-SQL</numIndex>
+							<numIndex index="1">tsql</numIndex>
+						</numIndex>
+						<numIndex index="74">
+							<numIndex index="0">TCL</numIndex>
+							<numIndex index="1">tcl</numIndex>
+						</numIndex>
+						<numIndex index="75">
+							<numIndex index="0">Text</numIndex>
+							<numIndex index="1">text</numIndex>
+						</numIndex>
+						<numIndex index="76">
+							<numIndex index="0">thinBasic</numIndex>
+							<numIndex index="1">thinbasic</numIndex>
+						</numIndex>
+						<numIndex index="77">
+							<numIndex index="0">TypoScript2</numIndex>
+							<numIndex index="1">typoscript</numIndex>
+						</numIndex>
+						<numIndex index="78">
+							<numIndex index="0">Uno Idl</numIndex>
+							<numIndex index="1">idl</numIndex>
+						</numIndex>
+						<numIndex index="79">
+							<numIndex index="0">vb.net</numIndex>
+							<numIndex index="1">vbnet</numIndex>
+						</numIndex>
+						<numIndex index="80">
+							<numIndex index="0">VHDL</numIndex>
+							<numIndex index="1">vhdl</numIndex>
+						</numIndex>
+						<numIndex index="81">
+							<numIndex index="0">Visual Basic</numIndex>
+							<numIndex index="1">vb</numIndex>
+						</numIndex>
+						<numIndex index="82">
+							<numIndex index="0">Visual Fox Pro</numIndex>
+							<numIndex index="1">visualfoxpro</numIndex>
+						</numIndex>
+						<numIndex index="83">
+							<numIndex index="0">Winbatch</numIndex>
+							<numIndex index="1">winbatch</numIndex>
+						</numIndex>
+						<numIndex index="84">
+							<numIndex index="0">X++</numIndex>
+							<numIndex index="1">xpp</numIndex>
+						</numIndex>
+						<numIndex index="85">
+							<numIndex index="0">XML</numIndex>
+							<numIndex index="1">xml</numIndex>
+						</numIndex>
+						<numIndex index="86">
+							<numIndex index="0">ZiLOG Z80 Assembler</numIndex>
+							<numIndex index="1">z80</numIndex>
+						</numIndex>			
+					</items>
+			</config>
+		</TCEforms>
+	</cLang>
+	
+	<cCode>
+		<TCEforms>
+			<label>LLL:EXT:sema_sourcecode/pi1/locallang.php:code</label>
+			<config>
+				<type>text</type>
+				<cols>120</cols>
+				<rows>12</rows>
+			</config>
+		</TCEforms>
+	</cCode>
+	</el>
+	</ROOT>
+	</sVIEW>
+    <sOPTIONS>
+		<ROOT>
+		<TCEforms>
+			<sheetTitle>LLL:EXT:sema_sourcecode/pi1/locallang.php:optionsheet</sheetTitle>
+		</TCEforms>
+		<type>array</type>
+		<el>
+		<cStartnumber>
+			<TCEforms>
+				<label>LLL:EXT:sema_sourcecode/pi1/locallang.php:startnumber</label>
+				<config>
+					<type>input</type>
+					<eval>int</eval>
+					<size>4</size>
+					<default>1</default>
+				</config>
+			</TCEforms>
+		</cStartnumber>
+		<cHighlight>
+		<TCEforms>
+			<label>LLL:EXT:sema_sourcecode/pi1/locallang.php:highlight</label>
+			<config>
+				<type>input</type>
+				<eval>tx_semasourcecode_evalhighlight</eval>
+			</config>
+		</TCEforms>
+		</cHighlight>
+		</el>
+		</ROOT>
+	</sOPTIONS>
+    </sheets>
+</T3DataStructure>
