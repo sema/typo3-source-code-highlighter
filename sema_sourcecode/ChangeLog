@@ -1,3 +1,7 @@
+xx-xx-xx (dev) Casper Jensen <sema@semaprojects.net>
+
+	* Removed local copy of the Geshi library which is now provided by the geshilib extension <thanks Rob Vonk>
+
 08-06-22 (1.0.1) Casper Jensen  <sema@semaprojects.net>
 
 	* Added option to create XHTML compliant output when using PRE containers and line highlighting <thanks Xavier Perseguers>

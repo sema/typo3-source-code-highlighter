@@ -23,7 +23,10 @@
 ***************************************************************/
 
 require_once(PATH_tslib.'class.tslib_pibase.php');
-require_once (t3lib_extMgm::extPath('sema_sourcecode').'geshi.php');
+
+if (t3lib_extMgm::isLoaded('geshilib')) {
+	require_once(t3lib_extMgm::siteRelPath('geshilib').'res/geshi.php');
+}
 
 /**
  * Plugin 'Source Code Highlighter' for the 'sema_sourcecode' extension.
@@ -43,7 +46,7 @@ class tx_semasourcecode_pi1 extends tslib_pibase {
 	 * @var GeSHi
 	 */
 	var $geshi = null;
-	
+
 	/**
 	 * The main method of the Plugin
 	 *
@@ -51,8 +54,11 @@ class tx_semasourcecode_pi1 extends tslib_pibase {
 	 * @param	array		$conf: The PlugIn configuration
 	 * @return	The content that is displayed on the website
 	 */
-	function main($content,$config)	{
-		
+	function main($content, $config) {
+		if (!t3lib_extMgm::isLoaded('geshilib')) {
+			return "Geshi library not loaded";
+		}
+
 		// get content
 		$this->pi_initPIflexForm();
 
