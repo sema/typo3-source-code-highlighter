@@ -41,7 +41,7 @@ class tx_semasourcecode_pi1 extends tslib_pibase {
 
 	var $extKey        = 'sema_sourcecode';
 	var $pi_checkCHash = true;
-	
+
 	/**
 	 * @var GeSHi
 	 */
@@ -171,6 +171,12 @@ class tx_semasourcecode_pi1 extends tslib_pibase {
 		if (isset($subjects['linenumbers.']['enable']))
 		{
 			$this->geshi->enable_line_numbers($subjects['linenumbers.']['enable']);
+		}
+
+		// configure code style
+		if (isset($subjects['code'])) {
+			$this->geshi->set_code_style($subjects['code'],
+				$this->_invertOverwrite($subjects['code.']['overwrite']));
 		}
 
 		// configure escape
