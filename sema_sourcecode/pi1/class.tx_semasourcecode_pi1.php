@@ -226,6 +226,28 @@ class tx_semasourcecode_pi1 extends tslib_pibase {
 			$this->geshi->enable_keyword_links($subjects['keyword.']['links.']['enable']);
 		}
 
+		// configure keyword link styles
+		if (isset($subjects['keyword.']['links'])) {
+			$this->geshi->set_link_styles(GESHI_LINK, $subjects['keyword.']['links']);
+		}
+
+		if (isset($subjects['keyword.']['links.']['hover'])) {
+			$this->geshi->set_link_styles(GESHI_HOVER, $subjects['keyword.']['links.']['hover']);
+		}
+
+		if (isset($subjects['keyword.']['links.']['active'])) {
+			$this->geshi->set_link_styles(GESHI_ACTIVE, $subjects['keyword.']['links.']['active']);
+		}
+
+		if (isset($subjects['keyword.']['links.']['visited'])) {
+			$this->geshi->set_link_styles(GESHI_VISITED, $subjects['keyword.']['links.']['visited']);
+		}
+
+		// configure keyword link target
+		if (isset($subjects['keyword.']['links.']['target'])) {
+			$this->geshi->set_link_target($subjects['keyword.']['links.']['target']);
+		}
+
 		// configure method styles
 		if (isset($subjects['methods.'])) {
 			foreach ($subjects['methods.'] as $key => $value) {
