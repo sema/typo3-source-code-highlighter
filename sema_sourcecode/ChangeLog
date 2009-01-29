@@ -2,6 +2,7 @@ xx-xx-xx (dev) Casper Jensen <sema@semaprojects.net>
 
 	* Removed local copy of the Geshi library which is now provided by the geshilib extension <thanks Rob Vonk>
 	* Added support for styling the code segment <thanks Daniel Chabrol>
+	* Added option to disable keyword group links <reported by Torsten Hettler>
 
 08-06-22 (1.0.1) Casper Jensen  <sema@semaprojects.net>
 
