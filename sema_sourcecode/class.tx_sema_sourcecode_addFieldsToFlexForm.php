@@ -53,7 +53,7 @@ class tx_sema_sourcecode_addFieldsToFlexForm {
   	}
 }
 
-if (defined('TYPO3_MODE') && $TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/sema_sourcecode/class.sema_sourcecode_addFieldsToFlexForm.php']) {
-    include_once($TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/sema_sourcecode/class.sema_sourcecode_addFieldsToFlexForm.php']);
+if (defined('TYPO3_MODE') && $TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/sema_sourcecode/class.tx_sema_sourcecode_addFieldsToFlexForm.php']) {
+    include_once($TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/sema_sourcecode/class.tx_sema_sourcecode_addFieldsToFlexForm.php']);
 }
 ?>

@@ -38,4 +38,8 @@ class tx_semasourcecode_evalhighlight {
 	}
 }
 
+if (defined('TYPO3_MODE') && $TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/sema_sourcecode/pi1/class.tx_semasourcecode_evalhighlight.php'])	{
+	include_once($TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/sema_sourcecode/pi1/class.tx_semasourcecode_evalhighlight.php']);
+}
+
 ?>
