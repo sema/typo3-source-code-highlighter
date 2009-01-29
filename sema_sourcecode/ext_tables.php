@@ -3,7 +3,6 @@ if (!defined ('TYPO3_MODE'))	die ('Access denied.');
 
 if (TYPO3_MODE=="BE") {
 	include_once(t3lib_extMgm::extPath($_EXTKEY).'class.tx_sema_sourcecode_addFieldsToFlexForm.php');
-	include_once(t3lib_extMgm::extPath($_EXTKEY).'class.tx_sema_sourcecode_evalhighlight.php');
 }
 
 t3lib_div::loadTCA('tt_content');
