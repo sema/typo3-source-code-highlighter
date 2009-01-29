@@ -12,7 +12,7 @@
 
 $EM_CONF[$_EXTKEY] = array(
 	'title' => 'Source Code Highlighter',
-	'description' => 'The source code highlighter is capable of highlighting 70+ different languages and adding line numbers, making it easy to publish source code. The highlighting is done using the GeSHi (http://qbnz.com/highlighter/) highlighting engine. Source code formatted using this extension can be seen at http://www.semaprojects.net/my-projects/typo3/source-code/.',
+	'description' => 'The source code highlighter is capable of highlighting 70+ different languages making it easy to publish source code in typo3. The highlighting is done using the GeSHi (http://qbnz.com/highlighter/) highlighting engine. Source code formatted using this extension can be seen at http://www.semaprojects.net/my-projects/typo3/source-code/.',
 	'category' => 'plugin',
 	'shy' => 0,
 	'version' => '1.0.0',
