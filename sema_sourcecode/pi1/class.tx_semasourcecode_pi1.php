@@ -68,8 +68,7 @@ class tx_semasourcecode_pi1 extends tslib_pibase {
 		$config['content.']['startnumber'] = $this->pi_getFFvalue($this->cObj->data['pi_flexform'], 'cStartnumber', 'sOPTIONS');
 		
 		// init geshi library
-		$this->geshi = new GeSHi($config['content.']['code'], $config['content.']['lang'],
-			t3lib_extMgm::extPath($this->extKey).'geshi/');
+		$this->geshi = new GeSHi($config['content.']['code'], $config['content.']['lang']);
 
 		// defaults
 		$this->geshi->enable_line_numbers(GESHI_NORMAL_LINE_NUMBERS);
