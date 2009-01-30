@@ -1,4 +1,4 @@
-08-01-29 (1.1.0) Casper Jensen <sema@semaprojects.net>
+09-01-29 (1.1.0) Casper Jensen <sema@semaprojects.net>
 
 	* Removed local copy of the Geshi library which is now provided by the geshilib extension <thanks Rob Vonk>
 	* Added support for styling the code segment <thanks Daniel Chabrol>
