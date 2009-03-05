@@ -1,3 +1,7 @@
+09-03-05 (1.1.1) Casper Jensen <sema@semaprojects.net>
+
+	* Fixed error when using XHTML compliance mode <reported by Xavier Perseguers>
+
 09-01-29 (1.1.0) Casper Jensen <sema@semaprojects.net>
 
 	* Removed local copy of the Geshi library which is now provided by the geshilib extension <thanks Rob Vonk>
