@@ -109,7 +109,7 @@ class tx_semasourcecode_pi1 extends tslib_pibase {
 
 		// xhtml compliance
 		if (isset($config['global.']['xhtmlcompliant']) && $config['global.']['xhtmlcompliant'] == 1) {
-			$this->geshi->set_xhtml_compliance(true);
+			$this->geshi->force_xhtml_compliance = true;
 		}
 		
 		// check for errors
